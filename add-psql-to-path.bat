@@ -7,7 +7,7 @@ REM #           * https://dev.psql.com/downloads/psql/5.7.html#downloads
 REM ###########################################################################
 
 REM Program defaults ...
-SET PROGRAM_PATH="C:\Program Files (x86)\pgAdmin III\1.22"
+SET PROGRAM_PATH=C:\Program Files (x86)\pgAdmin III\1.22
 SET PROGRAM_NAME=psql.exe
 SET PROGRAM_DOWNLOAD=https://www.devmedia.com.br/postgresql-tutorial/33025
 

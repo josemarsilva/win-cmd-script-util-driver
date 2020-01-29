@@ -12,11 +12,11 @@ SET PROGRAM_NAME=mvn.cmd
 SET PROGRAM_DOWNLOAD=https://maven.apache.org/install.html
 
 REM Custom environment variables defined ?
-IF DEFINED MAVEN_PATH (
+IF DEFINED MAVEN_HOME (
 	ECHO.
-	ECHO 'MAVEN_PATH' redefines 'PROGRAM_PATH' to '%MAVEN_PATH%'
+	ECHO 'MAVEN_HOME' redefines 'PROGRAM_PATH' to '%MAVEN_HOME%'\bin
 	ECHO.
-	SET PROGRAM_PATH=%MAVEN_PATH%
+	SET PROGRAM_PATH=%MAVEN_HOME%\bin
 )
 
 REM If Program is correctly installed Then add to path ...

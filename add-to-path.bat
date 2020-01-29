@@ -1,7 +1,10 @@
 ECHO OFF
 REM ###########################################################################
-REM # Filename: add-to-path.bat
-REM # Purpose : Show help
-REM # Source  : https://github.com/josemarsilva/win-cmd-script-util-driver.git
+REM # Filename...: add-to-path.bat
+REM # Description: Show help - V.1.01.00
+REM # Source.....: https://github.com/josemarsilva/win-cmd-script-util-driver.git
 REM ###########################################################################
-DIR %HOMEDRIVE%%HOMEPATH%\Documents\win-cmd-script-util-driver /on
+
+REM DIR %HOMEDRIVE%%HOMEPATH%\Documents\win-cmd-script-util-driver /on
+
+DIR C:\GitHome\ws-github-01\win-cmd-script-util-driver /on

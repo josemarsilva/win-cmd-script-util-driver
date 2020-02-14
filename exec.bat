@@ -1,1 +1,0 @@
-echo "sim eu existo "

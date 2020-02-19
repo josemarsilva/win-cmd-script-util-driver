@@ -29,8 +29,9 @@ for /d %%a in ("%folder%\*") do (
 
 endlocal
 
-REM Normal exit ...
-exit
+REM GOTO Normal exit ...
+GOTO ExitNormal
+
 
 REM Error ...
 
@@ -44,3 +45,4 @@ echo Usage: calc-folder-size.bat ^<base-folder^>
 echo Example: calc-folder-size.bat C:\
 echo.
 
+:ExitNormal

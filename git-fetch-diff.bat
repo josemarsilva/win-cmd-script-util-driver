@@ -1,4 +1,4 @@
-ECHO OFF
+@ECHO OFF
 REM ###########################################################################
 REM # Filename: git-fetch-diff.bat
 REM # Purpose : Execute git fetch and git diff in all sub-directories

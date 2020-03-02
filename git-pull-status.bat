@@ -1,4 +1,4 @@
-ECHO OFF
+@ECHO OFF
 REM ###########################################################################
 REM # Filename: git-pull-status.bat
 REM # Purpose : Execute git pull and git status in all sub-directories

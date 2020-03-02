@@ -1,4 +1,4 @@
-ECHO OFF
+@ECHO OFF
 REM ###########################################################################
 REM # Filename: git-add-commit.bat
 REM # Purpose : Execute git add and git commit in all sub-directories

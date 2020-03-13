@@ -13,7 +13,9 @@ IF "%1" == "" (
    ECHO Usage:
    ECHO   git-lfs-track.bat "<.extension>"
    ECHO.
-   ECHO Examples: git-lfs-track.bat "<.jar>"
+   ECHO Examples: git-lfs-track.bat .jar
+   ECHO           git-lfs-track.bat .exe
+   ECHO           git-lfs-track.bat .jpg
    GOTO EndOfScript
 )
 

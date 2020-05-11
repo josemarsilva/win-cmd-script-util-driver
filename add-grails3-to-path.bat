@@ -7,7 +7,7 @@ REM #           * http://grails.org/download.html
 REM ###########################################################################
 
 REM Program defaults ...
-SET PROGRAM_PATH=C:\grails-3.3.9\bin
+SET PROGRAM_PATH=C:\Apps\grails-3.3.9\bin
 SET PROGRAM_NAME=grails.bat
 SET PROGRAM_DOWNLOAD=http://grails.org/download.html
 

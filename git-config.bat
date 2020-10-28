@@ -12,18 +12,21 @@ IF "%1" == "" (
 	ECHO     git-config --local user.name "Josemar Silva"
 	ECHO     git-config --local user.email "josemarsilva@yahoo.com.br"
 	ECHO     git-config --list
-) ELSE (
-	FOR /f "tokens=*" %%G IN ('DIR /a:d /b /o:n /o:-d') DO (
-	  ECHO ------------------------------------------------------------------------------------------------------------------------
-	  CD %%G
-	  CD
-	  IF EXIST ".git\" (
-		ECHO git config %1 %2 %3 %4 %5 %6 %7 %8
-		git config %1 %2 %3 %4 %5 %6 %7 %8
-	  ) ELSE (
-		ECHO It's not a git repository ... skipped !
-	  )
-	  CD ..
-	)
-	ECHO ------------------------------------------------------------------------------------------------------------------------
+	GOTO EndOfScript
 )
+
+FOR /f "tokens=*" %%G IN ('DIR /a:d /b /o:n /o:-d') DO (
+  ECHO ------------------------------------------------------------------------------------------------------------------------
+  CD %%G
+  CD
+  IF EXIST ".git\" (
+	ECHO git config %1 %2 %3 %4 %5 %6 %7 %8
+	git config %1 %2 %3 %4 %5 %6 %7 %8
+  ) ELSE (
+	ECHO It's not a git repository ... skipped !
+  )
+  CD ..
+)
+ECHO ------------------------------------------------------------------------------------------------------------------------
+
+:EndOfScript

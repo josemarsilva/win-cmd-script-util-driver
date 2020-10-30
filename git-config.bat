@@ -11,6 +11,7 @@ IF "%1" == "" (
 	ECHO   Examples:
 	ECHO     git-config --local user.name "Josemar Silva"
 	ECHO     git-config --local user.email "josemarsilva@yahoo.com.br"
+	ECHO     git-config http.sslVerify "false"
 	ECHO     git-config --list
 	GOTO EndOfScript
 )

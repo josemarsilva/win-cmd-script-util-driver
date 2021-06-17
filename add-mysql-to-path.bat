@@ -7,7 +7,8 @@ REM #           * https://dev.mysql.com/downloads/mysql/5.7.html#downloads
 REM ###########################################################################
 
 REM Program defaults ...
-SET PROGRAM_PATH=C:\PROGRA~1\mysql-5.7.25-winx64\bin
+REM SET PROGRAM_PATH=C:\PROGRA~1\mysql-5.7.25-winx64\bin
+SET PROGRAM_PATH=C:\APPS\mysql-5.7.25-winx64\bin
 SET PROGRAM_NAME=mysql.exe
 SET PROGRAM_DOWNLOAD=https://dev.mysql.com/downloads/mysql/5.7.html#downloads
 

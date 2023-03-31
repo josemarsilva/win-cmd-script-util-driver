@@ -14,6 +14,7 @@ FOR /f "tokens=*" %%G IN ('DIR /a:d /b /o:n /o:-d') DO (
     ECHO git pull
     git pull
     ECHO git status
+	git branch
     git status
   ) ELSE (
     ECHO It's not a git repository ... skipped !
